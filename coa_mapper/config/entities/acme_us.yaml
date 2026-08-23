@@ -1,0 +1,27 @@
+# Worked example: the entity behind the provided inputs/ dataset.
+#
+# Deviates from base policy in one respect, deliberately.
+
+entity:
+  name: "Acme US (mock dataset from inputs/)"
+  functional_currency: USD
+
+thresholds:
+  # The chart is small (72 nodes) and its codes are strictly hierarchical, so a
+  # near-miss is far more likely to be a genuine rename than a coincidence.
+  # Tightened from the 0.03 base: with this few accounts, two candidates within
+  # 5% of each other is a real ambiguity and belongs in front of a human.
+  tie_epsilon: 0.05
+
+weights:
+  # Codes here are meaningfully structured (1xxx assets, 6xxx opex), so leading
+  # digits carry more signal than the base weighting assumes. Taken from
+  # token_overlap, which is the weakest feature on names this terse.
+  code_proximity: 0.15
+  token_overlap: 0.10
+
+notes: |
+  Raising code_proximity does not change any disposition on the current data —
+  every account resolves by EXACT_CODE except 6905 and 9999. It is here to
+  demonstrate the override mechanism and to be the place that policy lands when
+  this chart grows.

@@ -1,0 +1,11 @@
+id,description,status,total_debit,total_credit,accounts,reason
+JE-001,Accrue Q4 bonus pool,ACCEPT,850000.0,850000.0,6100|2120,"Balanced, all accounts resolve in the COA, net economic effect confirmed."
+JE-002,Reclassify marketing spend wrongly booked to T&E,REJECT,28500.0,25000.0,6300|6310,"Entry does not balance: total debits $28,500.00 vs total credits $25,000.00 (difference $3,500.00). A journal entry must balance before it can be posted. Please correct and resubmit. Source: Controller note 2024-12-28."
+JE-003,FX revaluation of EUR cash balance to period-end rate,ACCEPT,11200.0,11200.0,1110|7310,"Balanced, all accounts resolve in the COA, net economic effect confirmed."
+JE-004,Bad debt provision top-up,ACCEPT,45000.0,45000.0,6600|1121,"Balanced, all accounts resolve in the COA, net economic effect confirmed."
+JE-005,Reclass conference travel from old code,QUARANTINE,18500.0,18500.0,6315|6310,"References account(s) 6315 which do not exist in the chart of accounts. The entry balances arithmetically, but we cannot post to an account that is not mapped. Routing to the COA steward to either map or add the account, or correct the entry. Source: AP team."
+JE-006,Depreciation catch-up — Q4,ACCEPT,215000.0,215000.0,6500|1211,"Balanced, all accounts resolve in the COA, net economic effect confirmed."
+JE-007,Deferred tax true-up,ACCEPT,38000.0,38000.0,8200|1250,"Balanced, all accounts resolve in the COA, net economic effect confirmed."
+JE-008,Intercompany settlement — UK sub,QUARANTINE,320000.0,320000.0,2170|2170,"All lines net to zero across the same account(s) (2170). This entry has no net economic effect on any balance. That usually means a contra-account was mis-keyed, for example an intercompany entry that should hit the counterparty's account, rather than a genuine adjustment. Escalating to the preparer for the correct offsetting account. Source: IC reconciliation."
+JE-009,Accrue legal fees for ongoing litigation,ACCEPT,75000.0,75000.0,6400|2120,"Balanced, all accounts resolve in the COA, net economic effect confirmed."
+JE-010,Reclass long-term debt current portion,ACCEPT,200000.0,200000.0,2210|2140,"Balanced, all accounts resolve in the COA, net economic effect confirmed."

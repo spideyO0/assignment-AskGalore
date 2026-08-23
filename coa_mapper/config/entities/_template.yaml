@@ -1,0 +1,31 @@
+# Per-entity policy override. Copy to <entity_slug>.yaml and edit.
+#
+# Only the keys you set are overridden; everything else falls back to the base
+# config.yaml. An entity file may set thresholds, feature weights, or both.
+#
+# Why per-entity: one global auto_min is wrong at scale. The tolerable
+# false-auto-map rate for a cash account in a 60-account chart is not the rate
+# for a miscellaneous expense account in a 20,000-node chart. Charts also differ
+# structurally — some carry meaningful code hierarchies, some do not — so the
+# feature weights that work for one entity mislead on another.
+
+entity:
+  name: ""          # human-readable, echoed into the validation report
+  functional_currency: USD
+
+thresholds:
+  # auto_min: 0.90
+  # review_min: 0.60
+  # tie_epsilon: 0.03
+  # top_k: 3
+  # max_suspense_ratio: 0.50
+
+weights:
+  # name_similarity: 0.45
+  # token_overlap: 0.15
+  # code_proximity: 0.10
+  # balance_continuity: 0.30
+
+notes: |
+  Record WHY this entity deviates from the base policy. A threshold with no
+  stated reason is a threshold nobody can safely change later.

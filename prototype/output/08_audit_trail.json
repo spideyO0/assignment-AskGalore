@@ -1,0 +1,1202 @@
+{
+  "pl_line_lineage": {
+    "1110": {
+      "debit_usd": 5686160.2,
+      "credit_usd": 0.0,
+      "source_rows": [
+        0,
+        1,
+        2
+      ],
+      "je_refs": [
+        "JE-003:EUR cash uplift"
+      ],
+      "low_confidence": true
+    },
+    "1120": {
+      "debit_usd": 6180500.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        3
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1121": {
+      "debit_usd": 0.0,
+      "credit_usd": 230000.0,
+      "source_rows": [
+        4
+      ],
+      "je_refs": [
+        "JE-004:Increase allowance"
+      ],
+      "low_confidence": false
+    },
+    "1130": {
+      "debit_usd": 1920000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        5
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1131": {
+      "debit_usd": 3410000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        6
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1140": {
+      "debit_usd": 245000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        7
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1150": {
+      "debit_usd": 78400.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        8
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1210": {
+      "debit_usd": 17007700.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        9
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1211": {
+      "debit_usd": 0.0,
+      "credit_usd": 4415000.0,
+      "source_rows": [
+        10
+      ],
+      "je_refs": [
+        "JE-006:Accum dep"
+      ],
+      "low_confidence": false
+    },
+    "1220": {
+      "debit_usd": 2800000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        11
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1221": {
+      "debit_usd": 0.0,
+      "credit_usd": 980000.0,
+      "source_rows": [
+        12
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1230": {
+      "debit_usd": 3500000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        13
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1240": {
+      "debit_usd": 750000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        14
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1250": {
+      "debit_usd": 320000.0,
+      "credit_usd": 38000.0,
+      "source_rows": [
+        15
+      ],
+      "je_refs": [
+        "JE-007:Reduce DTA"
+      ],
+      "low_confidence": false
+    },
+    "2110": {
+      "debit_usd": 0.0,
+      "credit_usd": 2840000.0,
+      "source_rows": [
+        16
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2120": {
+      "debit_usd": 0.0,
+      "credit_usd": 2075000.0,
+      "source_rows": [
+        17
+      ],
+      "je_refs": [
+        "JE-001:Accrual offset",
+        "JE-009:Accrued legal"
+      ],
+      "low_confidence": false
+    },
+    "2130": {
+      "debit_usd": 0.0,
+      "credit_usd": 1500000.0,
+      "source_rows": [
+        18
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2140": {
+      "debit_usd": 0.0,
+      "credit_usd": 1000000.0,
+      "source_rows": [
+        19
+      ],
+      "je_refs": [
+        "JE-010:Into current"
+      ],
+      "low_confidence": false
+    },
+    "2150": {
+      "debit_usd": 0.0,
+      "credit_usd": 420000.0,
+      "source_rows": [
+        20
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2160": {
+      "debit_usd": 0.0,
+      "credit_usd": 680000.0,
+      "source_rows": [
+        21
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2170": {
+      "debit_usd": 0.0,
+      "credit_usd": 1240000.0,
+      "source_rows": [
+        22
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2210": {
+      "debit_usd": 200000.0,
+      "credit_usd": 6500000.0,
+      "source_rows": [
+        23
+      ],
+      "je_refs": [
+        "JE-010:Out of LT debt"
+      ],
+      "low_confidence": false
+    },
+    "2220": {
+      "debit_usd": 0.0,
+      "credit_usd": 1320000.0,
+      "source_rows": [
+        24
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2230": {
+      "debit_usd": 0.0,
+      "credit_usd": 485000.0,
+      "source_rows": [
+        25
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2240": {
+      "debit_usd": 0.0,
+      "credit_usd": 910000.0,
+      "source_rows": [
+        26
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3100": {
+      "debit_usd": 0.0,
+      "credit_usd": 1000000.0,
+      "source_rows": [
+        27
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3110": {
+      "debit_usd": 0.0,
+      "credit_usd": 4500000.0,
+      "source_rows": [
+        28
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3200": {
+      "debit_usd": 0.0,
+      "credit_usd": 7240000.0,
+      "source_rows": [
+        29
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3310": {
+      "debit_usd": 0.0,
+      "credit_usd": 180000.0,
+      "source_rows": [
+        30
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3400": {
+      "debit_usd": 420000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        31
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "4100": {
+      "debit_usd": 0.0,
+      "credit_usd": 28500000.0,
+      "source_rows": [
+        32
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "4110": {
+      "debit_usd": 0.0,
+      "credit_usd": 6200000.0,
+      "source_rows": [
+        33
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "4200": {
+      "debit_usd": 340000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        34
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "4300": {
+      "debit_usd": 0.0,
+      "credit_usd": 125000.0,
+      "source_rows": [
+        35
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "5100": {
+      "debit_usd": 9800000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        36
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "5110": {
+      "debit_usd": 4200000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        37
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "5120": {
+      "debit_usd": 2650000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        38
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6100": {
+      "debit_usd": 6250000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        39
+      ],
+      "je_refs": [
+        "JE-001:Bonus accrual"
+      ],
+      "low_confidence": false
+    },
+    "6110": {
+      "debit_usd": 920000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        40
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6120": {
+      "debit_usd": 410000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        41
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6200": {
+      "debit_usd": 480000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        42
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6210": {
+      "debit_usd": 115000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        43
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6220": {
+      "debit_usd": 62000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        44
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6300": {
+      "debit_usd": 980000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        45
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6310": {
+      "debit_usd": 283500.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        46,
+        47
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6400": {
+      "debit_usd": 595000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        48
+      ],
+      "je_refs": [
+        "JE-009:Legal accrual"
+      ],
+      "low_confidence": false
+    },
+    "6410": {
+      "debit_usd": 180000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        49
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6500": {
+      "debit_usd": 1065000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        50
+      ],
+      "je_refs": [
+        "JE-006:Q4 dep"
+      ],
+      "low_confidence": false
+    },
+    "6510": {
+      "debit_usd": 220000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        51
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6600": {
+      "debit_usd": 140000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        52
+      ],
+      "je_refs": [
+        "JE-004:Top-up reserve"
+      ],
+      "low_confidence": false
+    },
+    "6900": {
+      "debit_usd": 140000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        53
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "7100": {
+      "debit_usd": 0.0,
+      "credit_usd": 62000.0,
+      "source_rows": [
+        54
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "7200": {
+      "debit_usd": 410000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        55
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "7300": {
+      "debit_usd": 85000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        56
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "7310": {
+      "debit_usd": 0.0,
+      "credit_usd": 53200.0,
+      "source_rows": [
+        57
+      ],
+      "je_refs": [
+        "JE-003:Unrealized FX gain"
+      ],
+      "low_confidence": false
+    },
+    "7400": {
+      "debit_usd": 0.0,
+      "credit_usd": 18000.0,
+      "source_rows": [
+        58
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "8100": {
+      "debit_usd": 680000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        59
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "8200": {
+      "debit_usd": 158000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        60
+      ],
+      "je_refs": [
+        "JE-007:DTA reduction"
+      ],
+      "low_confidence": false
+    }
+  },
+  "bs_line_lineage": {
+    "1110": {
+      "debit_usd": 5686160.2,
+      "credit_usd": 0.0,
+      "source_rows": [
+        0,
+        1,
+        2
+      ],
+      "je_refs": [
+        "JE-003:EUR cash uplift"
+      ],
+      "low_confidence": true
+    },
+    "1120": {
+      "debit_usd": 6180500.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        3
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1121": {
+      "debit_usd": 0.0,
+      "credit_usd": 230000.0,
+      "source_rows": [
+        4
+      ],
+      "je_refs": [
+        "JE-004:Increase allowance"
+      ],
+      "low_confidence": false
+    },
+    "1130": {
+      "debit_usd": 1920000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        5
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1131": {
+      "debit_usd": 3410000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        6
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1140": {
+      "debit_usd": 245000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        7
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1150": {
+      "debit_usd": 78400.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        8
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1210": {
+      "debit_usd": 17007700.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        9
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1211": {
+      "debit_usd": 0.0,
+      "credit_usd": 4415000.0,
+      "source_rows": [
+        10
+      ],
+      "je_refs": [
+        "JE-006:Accum dep"
+      ],
+      "low_confidence": false
+    },
+    "1220": {
+      "debit_usd": 2800000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        11
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1221": {
+      "debit_usd": 0.0,
+      "credit_usd": 980000.0,
+      "source_rows": [
+        12
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1230": {
+      "debit_usd": 3500000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        13
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1240": {
+      "debit_usd": 750000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        14
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "1250": {
+      "debit_usd": 320000.0,
+      "credit_usd": 38000.0,
+      "source_rows": [
+        15
+      ],
+      "je_refs": [
+        "JE-007:Reduce DTA"
+      ],
+      "low_confidence": false
+    },
+    "2110": {
+      "debit_usd": 0.0,
+      "credit_usd": 2840000.0,
+      "source_rows": [
+        16
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2120": {
+      "debit_usd": 0.0,
+      "credit_usd": 2075000.0,
+      "source_rows": [
+        17
+      ],
+      "je_refs": [
+        "JE-001:Accrual offset",
+        "JE-009:Accrued legal"
+      ],
+      "low_confidence": false
+    },
+    "2130": {
+      "debit_usd": 0.0,
+      "credit_usd": 1500000.0,
+      "source_rows": [
+        18
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2140": {
+      "debit_usd": 0.0,
+      "credit_usd": 1000000.0,
+      "source_rows": [
+        19
+      ],
+      "je_refs": [
+        "JE-010:Into current"
+      ],
+      "low_confidence": false
+    },
+    "2150": {
+      "debit_usd": 0.0,
+      "credit_usd": 420000.0,
+      "source_rows": [
+        20
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2160": {
+      "debit_usd": 0.0,
+      "credit_usd": 680000.0,
+      "source_rows": [
+        21
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2170": {
+      "debit_usd": 0.0,
+      "credit_usd": 1240000.0,
+      "source_rows": [
+        22
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2210": {
+      "debit_usd": 200000.0,
+      "credit_usd": 6500000.0,
+      "source_rows": [
+        23
+      ],
+      "je_refs": [
+        "JE-010:Out of LT debt"
+      ],
+      "low_confidence": false
+    },
+    "2220": {
+      "debit_usd": 0.0,
+      "credit_usd": 1320000.0,
+      "source_rows": [
+        24
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2230": {
+      "debit_usd": 0.0,
+      "credit_usd": 485000.0,
+      "source_rows": [
+        25
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "2240": {
+      "debit_usd": 0.0,
+      "credit_usd": 910000.0,
+      "source_rows": [
+        26
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3100": {
+      "debit_usd": 0.0,
+      "credit_usd": 1000000.0,
+      "source_rows": [
+        27
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3110": {
+      "debit_usd": 0.0,
+      "credit_usd": 4500000.0,
+      "source_rows": [
+        28
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3200": {
+      "debit_usd": 0.0,
+      "credit_usd": 7240000.0,
+      "source_rows": [
+        29
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3310": {
+      "debit_usd": 0.0,
+      "credit_usd": 180000.0,
+      "source_rows": [
+        30
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "3400": {
+      "debit_usd": 420000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        31
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "4100": {
+      "debit_usd": 0.0,
+      "credit_usd": 28500000.0,
+      "source_rows": [
+        32
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "4110": {
+      "debit_usd": 0.0,
+      "credit_usd": 6200000.0,
+      "source_rows": [
+        33
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "4200": {
+      "debit_usd": 340000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        34
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "4300": {
+      "debit_usd": 0.0,
+      "credit_usd": 125000.0,
+      "source_rows": [
+        35
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "5100": {
+      "debit_usd": 9800000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        36
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "5110": {
+      "debit_usd": 4200000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        37
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "5120": {
+      "debit_usd": 2650000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        38
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6100": {
+      "debit_usd": 6250000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        39
+      ],
+      "je_refs": [
+        "JE-001:Bonus accrual"
+      ],
+      "low_confidence": false
+    },
+    "6110": {
+      "debit_usd": 920000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        40
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6120": {
+      "debit_usd": 410000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        41
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6200": {
+      "debit_usd": 480000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        42
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6210": {
+      "debit_usd": 115000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        43
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6220": {
+      "debit_usd": 62000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        44
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6300": {
+      "debit_usd": 980000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        45
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6310": {
+      "debit_usd": 283500.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        46,
+        47
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6400": {
+      "debit_usd": 595000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        48
+      ],
+      "je_refs": [
+        "JE-009:Legal accrual"
+      ],
+      "low_confidence": false
+    },
+    "6410": {
+      "debit_usd": 180000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        49
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6500": {
+      "debit_usd": 1065000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        50
+      ],
+      "je_refs": [
+        "JE-006:Q4 dep"
+      ],
+      "low_confidence": false
+    },
+    "6510": {
+      "debit_usd": 220000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        51
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "6600": {
+      "debit_usd": 140000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        52
+      ],
+      "je_refs": [
+        "JE-004:Top-up reserve"
+      ],
+      "low_confidence": false
+    },
+    "6900": {
+      "debit_usd": 140000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        53
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "7100": {
+      "debit_usd": 0.0,
+      "credit_usd": 62000.0,
+      "source_rows": [
+        54
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "7200": {
+      "debit_usd": 410000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        55
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "7300": {
+      "debit_usd": 85000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        56
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "7310": {
+      "debit_usd": 0.0,
+      "credit_usd": 53200.0,
+      "source_rows": [
+        57
+      ],
+      "je_refs": [
+        "JE-003:Unrealized FX gain"
+      ],
+      "low_confidence": false
+    },
+    "7400": {
+      "debit_usd": 0.0,
+      "credit_usd": 18000.0,
+      "source_rows": [
+        58
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "8100": {
+      "debit_usd": 680000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        59
+      ],
+      "je_refs": [],
+      "low_confidence": false
+    },
+    "8200": {
+      "debit_usd": 158000.0,
+      "credit_usd": 0.0,
+      "source_rows": [
+        60
+      ],
+      "je_refs": [
+        "JE-007:DTA reduction"
+      ],
+      "low_confidence": false
+    }
+  },
+  "adjustment_dispositions": [
+    {
+      "id": "JE-001",
+      "description": "Accrue Q4 bonus pool",
+      "status": "ACCEPT",
+      "total_debit": 850000.0,
+      "total_credit": 850000.0,
+      "accounts": "6100|2120",
+      "reason": "Balanced, all accounts resolve in the COA, net economic effect confirmed."
+    },
+    {
+      "id": "JE-002",
+      "description": "Reclassify marketing spend wrongly booked to T&E",
+      "status": "REJECT",
+      "total_debit": 28500.0,
+      "total_credit": 25000.0,
+      "accounts": "6300|6310",
+      "reason": "Entry does not balance: total debits $28,500.00 vs total credits $25,000.00 (difference $3,500.00). A journal entry must balance before it can be posted. Please correct and resubmit. Source: Controller note 2024-12-28."
+    },
+    {
+      "id": "JE-003",
+      "description": "FX revaluation of EUR cash balance to period-end rate",
+      "status": "ACCEPT",
+      "total_debit": 11200.0,
+      "total_credit": 11200.0,
+      "accounts": "1110|7310",
+      "reason": "Balanced, all accounts resolve in the COA, net economic effect confirmed."
+    },
+    {
+      "id": "JE-004",
+      "description": "Bad debt provision top-up",
+      "status": "ACCEPT",
+      "total_debit": 45000.0,
+      "total_credit": 45000.0,
+      "accounts": "6600|1121",
+      "reason": "Balanced, all accounts resolve in the COA, net economic effect confirmed."
+    },
+    {
+      "id": "JE-005",
+      "description": "Reclass conference travel from old code",
+      "status": "QUARANTINE",
+      "total_debit": 18500.0,
+      "total_credit": 18500.0,
+      "accounts": "6315|6310",
+      "reason": "References account(s) 6315 which do not exist in the chart of accounts. The entry balances arithmetically, but we cannot post to an account that is not mapped. Routing to the COA steward to either map or add the account, or correct the entry. Source: AP team."
+    },
+    {
+      "id": "JE-006",
+      "description": "Depreciation catch-up \u2014 Q4",
+      "status": "ACCEPT",
+      "total_debit": 215000.0,
+      "total_credit": 215000.0,
+      "accounts": "6500|1211",
+      "reason": "Balanced, all accounts resolve in the COA, net economic effect confirmed."
+    },
+    {
+      "id": "JE-007",
+      "description": "Deferred tax true-up",
+      "status": "ACCEPT",
+      "total_debit": 38000.0,
+      "total_credit": 38000.0,
+      "accounts": "8200|1250",
+      "reason": "Balanced, all accounts resolve in the COA, net economic effect confirmed."
+    },
+    {
+      "id": "JE-008",
+      "description": "Intercompany settlement \u2014 UK sub",
+      "status": "QUARANTINE",
+      "total_debit": 320000.0,
+      "total_credit": 320000.0,
+      "accounts": "2170|2170",
+      "reason": "All lines net to zero across the same account(s) (2170). This entry has no net economic effect on any balance. That usually means a contra-account was mis-keyed, for example an intercompany entry that should hit the counterparty's account, rather than a genuine adjustment. Escalating to the preparer for the correct offsetting account. Source: IC reconciliation."
+    },
+    {
+      "id": "JE-009",
+      "description": "Accrue legal fees for ongoing litigation",
+      "status": "ACCEPT",
+      "total_debit": 75000.0,
+      "total_credit": 75000.0,
+      "accounts": "6400|2120",
+      "reason": "Balanced, all accounts resolve in the COA, net economic effect confirmed."
+    },
+    {
+      "id": "JE-010",
+      "description": "Reclass long-term debt current portion",
+      "status": "ACCEPT",
+      "total_debit": 200000.0,
+      "total_credit": 200000.0,
+      "accounts": "2210|2140",
+      "reason": "Balanced, all accounts resolve in the COA, net economic effect confirmed."
+    }
+  ]
+}

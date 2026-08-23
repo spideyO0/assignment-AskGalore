@@ -1,0 +1,133 @@
+{
+  "decisions": {
+    "current": {
+      "counts": {
+        "AUTO_APPLIED": 58,
+        "REVIEW": 0,
+        "SUSPENSE": 1
+      },
+      "input_rows": 62,
+      "usd_abs_totals": {
+        "AUTO_APPLIED": "142324060.20",
+        "REVIEW": "0",
+        "SUSPENSE": "12400.00"
+      }
+    },
+    "prior": {
+      "counts": {
+        "AUTO_APPLIED": 30,
+        "REVIEW": 1,
+        "SUSPENSE": 0
+      },
+      "input_rows": 33,
+      "usd_abs_totals": {
+        "AUTO_APPLIED": "67560067.40",
+        "REVIEW": "132000.00",
+        "SUSPENSE": "0"
+      }
+    }
+  },
+  "exit_code": 1,
+  "findings": {
+    "by_code": {
+      "COA_CHILDLESS_HEADER": 1,
+      "COA_ROOT_LEAF": 1,
+      "COA_TBD_CATEGORY": 2,
+      "DUP_ACCOUNT_CURRENCY": 1,
+      "FX_PERIOD_END_FALLBACK": 2,
+      "FX_UNKNOWN_RATE_TYPE": 2
+    },
+    "by_severity": {
+      "ERROR": 0,
+      "INFO": 6,
+      "WARN": 3
+    },
+    "total": 9
+  },
+  "inputs": {
+    "chart_of_accounts.csv": {
+      "rows": 72,
+      "sha256": "093275cdd8513d915d42a63262a96e38177129d95f65de4cadd2dab58bdf6033"
+    },
+    "fx_rates.csv": {
+      "rows": 7,
+      "sha256": "93aca603be3c63ce1f41e4a26b93073902af406eef9318e40ca279552e67e5eb"
+    },
+    "prior_period_tb.csv": {
+      "rows": 33,
+      "sha256": "3b81c410569480e623130ee794125f8fd306967ee7cb3e7f286635f9eccc6446"
+    },
+    "trial_balance.csv": {
+      "rows": 62,
+      "sha256": "c1f121388aa85a77d737339e25b8e6e6798498e018657fb85e024200f4a44555"
+    }
+  },
+  "run_status": "PASS_WITH_DISCLOSED_EXCEPTIONS",
+  "verification_checks": [
+    {
+      "detail": "input_rows=62 covered=62 missing=[] extra=[] overlaps=[]",
+      "name": "current:row_conservation",
+      "passed": true
+    },
+    {
+      "detail": "|sum(nets)|=142336460.20 sum(|decision nets|)=142336460.20",
+      "name": "current:usd_conservation",
+      "passed": true
+    },
+    {
+      "detail": "independently re-derived 59 account decisions; diverged=[]",
+      "name": "current:decision_reproduction",
+      "passed": true
+    },
+    {
+      "detail": "AUTO_APPLIED=58 threshold_violations=[]",
+      "name": "current:auto_gate_integrity",
+      "passed": true
+    },
+    {
+      "detail": "accounts=59 every disposition valid with reasons; invalid=[]",
+      "name": "current:dispositions_total",
+      "passed": true
+    },
+    {
+      "detail": "independently recomputed fallbacks=['GBP'] disclosed_in_findings=['GBP'] untranslatable_routed_to_suspense=set()",
+      "name": "current:fx_fallbacks_flagged",
+      "passed": true
+    },
+    {
+      "detail": "input_rows=33 covered=33 missing=[] extra=[] overlaps=[]",
+      "name": "prior:row_conservation",
+      "passed": true
+    },
+    {
+      "detail": "|sum(nets)|=67692067.40 sum(|decision nets|)=67692067.40",
+      "name": "prior:usd_conservation",
+      "passed": true
+    },
+    {
+      "detail": "independently re-derived 31 account decisions; diverged=[]",
+      "name": "prior:decision_reproduction",
+      "passed": true
+    },
+    {
+      "detail": "AUTO_APPLIED=30 threshold_violations=[]",
+      "name": "prior:auto_gate_integrity",
+      "passed": true
+    },
+    {
+      "detail": "accounts=31 every disposition valid with reasons; invalid=[]",
+      "name": "prior:dispositions_total",
+      "passed": true
+    },
+    {
+      "detail": "independently recomputed fallbacks=['GBP'] disclosed_in_findings=['GBP'] untranslatable_routed_to_suspense=set()",
+      "name": "prior:fx_fallbacks_flagged",
+      "passed": true
+    },
+    {
+      "detail": "data artifacts rendered twice byte-identical=True files=['decisions.jsonl', 'mapped_tb_current.csv', 'mapped_tb_prior.csv', 'review_queue.csv', 'suspense.csv']",
+      "name": "artifacts:idempotent_render",
+      "passed": true
+    }
+  ]
+}
