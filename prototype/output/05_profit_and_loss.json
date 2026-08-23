@@ -1,0 +1,164 @@
+{
+  "period": "2024-Q4",
+  "revenue": [
+    {
+      "account_code": "4100",
+      "account_name": "Product Revenue",
+      "amount": 28500000.0
+    },
+    {
+      "account_code": "4110",
+      "account_name": "Service Revenue",
+      "amount": 6200000.0
+    },
+    {
+      "account_code": "4200",
+      "account_name": "Sales Returns and Allowances",
+      "amount": -340000.0
+    },
+    {
+      "account_code": "4300",
+      "account_name": "Other Operating Revenue",
+      "amount": 125000.0
+    }
+  ],
+  "total_revenue": 34485000.0,
+  "cogs": [
+    {
+      "account_code": "5100",
+      "account_name": "COGS - Materials",
+      "amount": 9800000.0
+    },
+    {
+      "account_code": "5110",
+      "account_name": "COGS - Direct Labor",
+      "amount": 4200000.0
+    },
+    {
+      "account_code": "5120",
+      "account_name": "COGS - Manufacturing Overhead",
+      "amount": 2650000.0
+    }
+  ],
+  "total_cogs": 16650000.0,
+  "gross_profit": 17835000.0,
+  "operating_expenses": [
+    {
+      "account_code": "6100",
+      "account_name": "Salaries and Wages",
+      "amount": 6250000.0
+    },
+    {
+      "account_code": "6110",
+      "account_name": "Employee Benefits",
+      "amount": 920000.0
+    },
+    {
+      "account_code": "6120",
+      "account_name": "Payroll Taxes",
+      "amount": 410000.0
+    },
+    {
+      "account_code": "6200",
+      "account_name": "Rent Expense",
+      "amount": 480000.0
+    },
+    {
+      "account_code": "6210",
+      "account_name": "Utilities",
+      "amount": 115000.0
+    },
+    {
+      "account_code": "6220",
+      "account_name": "Office Supplies",
+      "amount": 62000.0
+    },
+    {
+      "account_code": "6300",
+      "account_name": "Marketing and Advertising",
+      "amount": 980000.0
+    },
+    {
+      "account_code": "6310",
+      "account_name": "Travel and Entertainment",
+      "amount": 283500.0
+    },
+    {
+      "account_code": "6400",
+      "account_name": "Professional Fees",
+      "amount": 595000.0
+    },
+    {
+      "account_code": "6410",
+      "account_name": "Insurance",
+      "amount": 180000.0
+    },
+    {
+      "account_code": "6500",
+      "account_name": "Depreciation Expense",
+      "amount": 1065000.0
+    },
+    {
+      "account_code": "6510",
+      "account_name": "Amortization Expense",
+      "amount": 220000.0
+    },
+    {
+      "account_code": "6600",
+      "account_name": "Bad Debt Expense",
+      "amount": 140000.0
+    },
+    {
+      "account_code": "6900",
+      "account_name": "Other Operating Expenses",
+      "amount": 140000.0
+    }
+  ],
+  "total_operating_expenses": 11840500.0,
+  "operating_income": 5994500.0,
+  "non_operating_income": [
+    {
+      "account_code": "7100",
+      "account_name": "Interest Income",
+      "amount": 62000.0
+    }
+  ],
+  "non_operating_expense": [
+    {
+      "account_code": "7200",
+      "account_name": "Interest Expense",
+      "amount": 410000.0
+    },
+    {
+      "account_code": "7300",
+      "account_name": "FX Gain/Loss - Realized",
+      "amount": 85000.0
+    },
+    {
+      "account_code": "7310",
+      "account_name": "FX Gain/Loss - Unrealized",
+      "amount": -53200.0
+    },
+    {
+      "account_code": "7400",
+      "account_name": "Gain/Loss on Disposal of Assets",
+      "amount": -18000.0
+    }
+  ],
+  "total_non_operating": -361800.0,
+  "income_before_tax": 5632700.0,
+  "tax_expense": [
+    {
+      "account_code": "8100",
+      "account_name": "Current Tax Expense",
+      "amount": 680000.0
+    },
+    {
+      "account_code": "8200",
+      "account_name": "Deferred Tax Expense",
+      "amount": 158000.0
+    }
+  ],
+  "total_tax_expense": 838000.0,
+  "net_income": 4794700.0
+}

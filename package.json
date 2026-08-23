@@ -1,0 +1,15 @@
+{
+  "name": "coa-mapper-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TB to chart-of-accounts mapper — CLI and UI",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs",
+    "setup": "npm --prefix ui install",
+    "build": "npm --prefix ui run build",
+    "preview": "npm --prefix ui run preview"
+  },
+  "engines": { "node": ">=20.19" }
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Test / tooling caches
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+output_test_run/
+
+# Exploratory statement-generator spike, not part of the submitted slice.
+# See README.md — the submitted slice is coa_mapper/.
+# OS
+.DS_Store
+
+# Node / UI
+node_modules/
+ui/dist/

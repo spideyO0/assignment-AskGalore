@@ -1,0 +1,22 @@
+thresholds:
+  auto_min: 0.90
+  review_min: 0.60
+  tie_epsilon: 0.03
+  top_k: 3
+  # past this share of accounts (or of USD) in suspense, the run is a hard failure
+  # rather than 'exceptions to review' — total mapping collapse must not read as routine
+  max_suspense_ratio: 0.50
+
+weights:
+  name_similarity: 0.45
+  token_overlap: 0.15
+  code_proximity: 0.10
+  balance_continuity: 0.30
+
+paths:
+  inputs_dir: ../inputs
+  output_dir: ../output
+
+sources:
+  - current
+  - prior

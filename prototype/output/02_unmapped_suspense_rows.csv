@@ -1,0 +1,2 @@
+account_code,account_name,currency,debit,credit,source_row,rate_used,rate_source,low_confidence,debit_usd,credit_usd
+9999,Suspense - Unmapped,USD,12400.0,0.0,61,1.0,identity,False,12400.0,0.0

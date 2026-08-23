@@ -1,0 +1,2 @@
+source,account_code,account_name,usd_net,proposed_code,proposed_name,confidence,runner_up_code,runner_up_confidence,margin,flags,features
+prior,6905,Sundry Operating Expenses,132000.00,6900,Other Operating Expenses,0.8002,8200,0.5127,0.2875,,balance_continuity=0.9429;code_proximity=0.7500;name_similarity=0.8163;token_overlap=0.5000
